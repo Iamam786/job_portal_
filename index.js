@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 const hbs = require('hbs');
 
 const port = process.env.PORT || 4000;
+// let url = "mongodb://localhost:27017/test";
 let url = "mongodb+srv://abdemustafa:admin@cluster0.cgiryyt.mongodb.net/test";
 
 //Conneted to db
